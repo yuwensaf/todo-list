@@ -203,7 +203,7 @@ $(document).ready(() => {
       type: "POST",
       // url: 'http://localhost:8080/saffran/week12-todoList/api_save_todos.php',
       url:
-        "http://mentor-program.co/mtr04group4/saffran/week12-todo-list/api_save_todos.php",
+        "http://mentor-program.co/mtr04group4/saffran/saffran-todo-list/api_save_todos.php",
       data: {
         todos: JSON.stringify(dataArr), // 把陣列先變成 JSON 字串
       },
@@ -227,7 +227,7 @@ $(document).ready(() => {
     $.ajax({
       // url: `http://localhost:8080/saffran/week12-todoList/api_get_todos.php?id=` + todosId
       url:
-        `http://mentor-program.co/mtr04group4/saffran/week12-todo-list/api_get_todos.php?id=` +
+        `http://mentor-program.co/mtr04group4/saffran/saffran-todo-list/api_get_todos.php?id=` +
         todosId,
     })
       .done(function (res) {
